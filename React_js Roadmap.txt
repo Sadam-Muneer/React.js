@@ -1,0 +1,7 @@
+React.js
+=> install react with vite/ Bun
+=> react version 19
+=> delete dependecies from package.jsona and run commands
+   . npm install react@rc
+   . npm i react-dom@rc
+ 
