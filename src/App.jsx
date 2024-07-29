@@ -1,9 +1,13 @@
-function App() {
+import Basics01 from "./pages/Basics01";
+import Conditions02 from "./pages/Conditions02";
+
+const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <Basics01 />
+      <Conditions02 />
+    </>
   );
-}
+};
 
 export default App;
