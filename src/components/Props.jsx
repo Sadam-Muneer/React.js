@@ -37,7 +37,6 @@ const Props = (sadam) => {
           </a>
         </div>
       </div>
-      );
     </div>
   );
 };
