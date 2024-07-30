@@ -5,7 +5,7 @@ const Conditions02 = () => {
   let canwatch = "Not Available";
   if (age >= 18) canwatch = "Watch Now";
   const lastmethod = () => {
-    if (age >= 18) "Watch Now";
+    if (age >= 18) return "Watch Now";
     return "Not Available";
   };
   return (
@@ -19,6 +19,7 @@ const Conditions02 = () => {
       <button className="bg-red-800 border-red-100 rounded-md p-3 mx-4">
         {lastmethod()}
       </button>
+      <hr />
     </div>
   );
 };
