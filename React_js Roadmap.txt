@@ -48,3 +48,6 @@ shorthand syntax
 Loops in React.js
 in react.js we dont use for,while and do-while looops 
 we only use the map functions
+-----------------------
+Props is React.js
+The properties , that provide the data from parent to childs
