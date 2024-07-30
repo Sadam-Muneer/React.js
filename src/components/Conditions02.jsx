@@ -9,7 +9,7 @@ const Conditions02 = () => {
     return "Not Available";
   };
   return (
-    <div>
+    <div className="container mx-auto p-4 px-16">
       <button className="bg-red-800 border-red-100 rounded-md p-3 ">
         {age <= 20 ? "Watch Now" : "Not Available"}
       </button>

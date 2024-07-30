@@ -10,7 +10,7 @@ const Home = () => {
     return sectionName;
   };
   return (
-    <div>
+    <div className="container mx-auto p-4 px-16">
       <h1>My Name is {name}</h1>
       <h1>My Father name is {father_name}</h1>
       <p>My department is {dept}</p>
