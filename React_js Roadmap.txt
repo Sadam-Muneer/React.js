@@ -23,6 +23,9 @@ components => functons that returns JSX
 -> functional based components => modern way of writing JSX
 sadam.js to Sadam.jsx
 import / export
+1-:default import and export => export default sadam
+2-:Names import and export => export const sadammm=(){...} => import {sadammm,interview,multipleComponenets} from "../"
+3-:Mixed import and export => import defaultNamed,{sadammm,multipleComponenets} from "../"
 
 ----------------------
 safe us from duplication of code ? how ?  

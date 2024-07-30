@@ -7,7 +7,7 @@ const Interview = () => {
       <p>{students.length && "No Students Founds"}</p>
       {/* solutions */}
       <p>{students.length === 0 ? "No Students Found" : students.length}</p>
-      <p>Number of Students are :{students.length}</p>
+      <p>Number of Students are : {students.length}</p>
       {/* <p>{!students.length && "No Students Founds"}</p> */}
     </div>
   );

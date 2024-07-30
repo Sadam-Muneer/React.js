@@ -1,13 +1,13 @@
-import Basics01 from "./pages/Basics01";
-import Conditions02 from "./pages/Conditions02";
-import Interview from "./pages/Interview";
+import Basics01 from "./components/Basics01";
+import Conditions02 from "./components/Conditions02";
+import Interview03 from "./components/Interview03";
 
 const App = () => {
   return (
     <>
       <Basics01 />
       <Conditions02 />
-      <Interview />
+      <Interview03 />
     </>
   );
 };
