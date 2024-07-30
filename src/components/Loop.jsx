@@ -23,11 +23,11 @@ const Loops04 = () => {
                 <b>Rating:</b> {series.rating}
               </p>
               <p className="text-gray-700 mt-2">
-                <b>Description</b>
+                <b>Description : </b>
                 {series.description}
               </p>
               <p className="text-gray-500 mt-2">
-                <b>Cast</b>: {series.cast.join(", ")}
+                <b>Cast </b>: {series.cast.join(", ")}
               </p>
               <a
                 href={series.watchButton}

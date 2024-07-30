@@ -1,7 +1,7 @@
 import Basics01 from "./components/Basics01";
 import Conditions02 from "./components/Conditions02";
 import Interview03 from "./components/Interview03";
-import Loops04 from "./components/Loops04";
+import Map04 from "./components/Loop.jsx";
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <Basics01 />
       <Conditions02 />
       <Interview03 />
-      <Loops04 />
+      <Map04 />
     </>
   );
 };
