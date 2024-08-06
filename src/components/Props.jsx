@@ -1,5 +1,4 @@
 import React from "react";
-
 const Props = (sadam) => {
   const { series } = sadam;
   if (!series) {
@@ -25,7 +24,7 @@ const Props = (sadam) => {
             {series.description}
           </p>
           <p className="text-gray-500 mt-2">
-            <b>Cast </b>: {series.cast.join(", ")}
+            <b>Cast </b>: {series.cast.join(",")}
           </p>
           <a
             href={series.watchButton}
@@ -40,5 +39,4 @@ const Props = (sadam) => {
     </div>
   );
 };
-
 export default Props;
