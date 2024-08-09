@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const StudentDataComponent = () => {
-  const [students, setStudents] = useState("");
+  const [students, setStudents] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -28,12 +28,21 @@ const StudentDataComponent = () => {
             students.map((student) => (
               <div
                 key={student.id}
-                className="bg-white border border-gray-200 rounded-lg shadow-md p-4"
+                className="bg-white border border-gray-200 rounded-lg shadow-md p-6"
               >
                 <h2 className="text-xl font-semibold mb-2">{student.name}</h2>
                 <p className="text-gray-700 mb-2">Email: {student.email}</p>
                 <p className="text-gray-700 mb-2">Phone: {student.phone}</p>
-                <p className="text-gray-700">Website: {student.website}</p>
+                <p className="text-gray-700 mb-2">Website: {student.website}</p>
+                <p className="text-gray-700 mb-2">
+                  Company: {student.company.name}
+                </p>
+                <p className="text-gray-700 mb-2">
+                  Address: {student.address.street}, {student.address.city}
+                </p>
+                <p className="text-gray-700">
+                  Catchphrase: {student.company.catchPhrase}
+                </p>
               </div>
             ))
           ) : (
