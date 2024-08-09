@@ -4,10 +4,14 @@ import { useState } from "react";
 function Hooks() {
   const [counter, sadamCounter] = useState(0);
   const addvalue = () => {
-    sadamCounter(counter + 1);
+    if (counter < 5) {
+      sadamCounter(counter + 1);
+    }
   };
   const removeValue = () => {
-    sadamCounter(counter - 1);
+    if (counter > 1) {
+      sadamCounter(counter - 1);
+    }
   };
   return (
     <>
