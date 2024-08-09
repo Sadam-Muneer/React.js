@@ -1,29 +1,48 @@
 import React, { useEffect, useState } from "react";
 
-const UseEffect = () => {
-  const [data, setData] = useState(null);
+const StudentDataComponent = () => {
+  const [students, setStudents] = useState("");
   const [loading, setLoading] = useState(true);
+
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/posts/1").then((response) => {
-      response.json().then((data) => {
-        setData(data);
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((response) => response.json())
+      .then((data) => {
+        setStudents(data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
         setLoading(false);
       });
-    });
   }, []);
+
   return (
-    <div className="text-center border-t-8 border-blue-500">
-      <h1>Data Fetching with useEffect</h1>
+    <div className="text-center border-t-8 border-blue-500 p-6">
+      <h1 className="text-2xl font-bold mb-6">Student Data using UseEffect</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <div>
-          <h2>{data.title}</h2>
-          <p>{data.body}</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {students.length > 0 ? (
+            students.map((student) => (
+              <div
+                key={student.id}
+                className="bg-white border border-gray-200 rounded-lg shadow-md p-4"
+              >
+                <h2 className="text-xl font-semibold mb-2">{student.name}</h2>
+                <p className="text-gray-700 mb-2">Email: {student.email}</p>
+                <p className="text-gray-700 mb-2">Phone: {student.phone}</p>
+                <p className="text-gray-700">Website: {student.website}</p>
+              </div>
+            ))
+          ) : (
+            <p>No data available</p>
+          )}
         </div>
       )}
     </div>
   );
 };
 
-export default UseEffect;
+export default StudentDataComponent;
