@@ -15,21 +15,24 @@ function Hooks() {
   };
   return (
     <>
-      <div>
+      <div className="text-center">
+        <h1>UseState</h1>
         <button
-          className="bg-black text-white p-3 mr-2 rounded-lg"
+          className="bg-black text-white p-3 mr-2 rounded-lg "
           onClick={addvalue}
         >
           Add Value
         </button>
         <button
-          className="bg-black text-white p-3 mr-2 rounded-lg"
+          className="bg-black text-white p-3 mr-2 rounded-lg "
           onClick={removeValue}
         >
           Remove Value
         </button>
       </div>
-      <button>Current Value is {counter} :</button>
+      <div className="text-center">
+        <button className="text-center">Current Value is {counter} :</button>
+      </div>
     </>
   );
 }
