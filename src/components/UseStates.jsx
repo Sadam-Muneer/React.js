@@ -15,7 +15,7 @@ function Hooks() {
   };
   return (
     <>
-      <div className="text-center">
+      <div className="container mx-auto p-4 px-16 text-center">
         <h1>UseState</h1>
         <button
           className="bg-black text-white p-3 mr-2 rounded-lg "
