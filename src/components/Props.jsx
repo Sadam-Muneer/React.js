@@ -2,7 +2,7 @@ import React from "react";
 const Props = (sadam) => {
   const { series } = sadam;
   if (!series) {
-    return <div>Loading...</div>;
+    return false;
   }
   return (
     <div>
