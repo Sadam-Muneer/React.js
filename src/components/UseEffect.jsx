@@ -19,7 +19,7 @@ const StudentDataComponent = () => {
 
   return (
     <div className="text-center border-t-8 border-blue-500 p-6">
-      <h1 className="text-2xl font-bold mb-6">Student Data using UseEffect</h1>
+      <h1 className="text-2xl font-bold mb-6">Student Data using</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
