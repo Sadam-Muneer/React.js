@@ -5,12 +5,17 @@ function Hooks() {
   const [counter, sadamCounter] = useState(0);
   const addvalue = () => {
     if (counter < 5) {
-      sadamCounter(counter + 1);
+      // sadamCounter(counter + 1);  simple increase by 1
+      // take prevoius value and jump 2 +
+      sadamCounter((prevcounter) => counter + 1);
+      sadamCounter((prevcounter) => prevcounter + 1);
     }
   };
   const removeValue = () => {
     if (counter > 1) {
-      sadamCounter(counter - 1);
+      // take prevoius value and jump 2 -
+      sadamCounter((prevcounter) => counter - 1);
+      sadamCounter((prevcounter) => prevcounter - 1);
     }
   };
   return (
