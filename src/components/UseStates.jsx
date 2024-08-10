@@ -4,7 +4,7 @@ import { useState } from "react";
 function Hooks() {
   const [counter, sadamCounter] = useState(0);
   const addvalue = () => {
-    if (counter < 5) {
+    if (counter < 10) {
       // sadamCounter(counter + 1);  simple increase by 1
       // take prevoius value and jump 2 +
       sadamCounter((prevcounter) => counter + 1);
@@ -23,13 +23,13 @@ function Hooks() {
       <div className="container mx-auto p-4 px-16 text-center">
         <h1>UseState</h1>
         <button
-          className="bg-black text-white p-3 mr-2 rounded-lg "
+          className="bg-black text-white p-4 mr-2 rounded-lg "
           onClick={addvalue}
         >
           Add Value
         </button>
         <button
-          className="bg-black text-white p-3 mr-2 rounded-lg "
+          className="bg-black text-white p-4 mr-2 rounded-lg "
           onClick={removeValue}
         >
           Remove Value
