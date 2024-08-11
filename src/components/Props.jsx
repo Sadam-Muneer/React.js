@@ -12,14 +12,14 @@ const Props = (sadam) => {
           alt={series.name}
           className="w-full h-48 object-cover"
         />
-        <div className="p-4">
+        <div className="p-5">
           <h2 className="text-lg ">
             <b>Name</b>:{series.name}
           </h2>
           <p className="text-gray-600">
             <b>Rating:</b> {series.rating}
           </p>
-          <p className="text-gray-700 mt-2">
+          <p className="text-gray-700 mt-3">
             <b>Description : </b>
             {series.description}
           </p>

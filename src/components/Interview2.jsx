@@ -6,6 +6,8 @@ const Interview2 = () => {
     { id: 1, name: "Sadam Muneer", dept: "CS" },
     { id: 2, name: "Ali Hassan", dept: "IT" },
     { id: 3, name: "Husnain Asad", dept: "DS" },
+    { id: 4, name: "Hamza Iqbal", dept: "IT" },
+    { id: 5, name: "Matti-ul-Hassan", dept: "CS" },
   ];
   const deleteAfterFiltering = items.filter((item) => item.id !== 2);
   return (
