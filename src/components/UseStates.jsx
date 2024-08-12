@@ -7,14 +7,14 @@ function Hooks() {
     if (counter < 10) {
       // sadamCounter(counter + 1);  simple increase by 1
       // take prevoius value and jump 2 +
-      sadamCounter((prevcounter) => counter + 1);
+      sadamCounter((prevcounter) => prevcounter + 1);
       sadamCounter((prevcounter) => prevcounter + 1);
     }
   };
   const removeValue = () => {
     if (counter > 1) {
       // take prevoius value and jump 2 -
-      sadamCounter((prevcounter) => counter - 1);
+      sadamCounter((prevcounter) => prevcounter - 1);
       sadamCounter((prevcounter) => prevcounter - 1);
     }
   };
