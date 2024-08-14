@@ -10,13 +10,13 @@ const Conditions02 = () => {
   };
   return (
     <div className="container mx-auto p-4 px-16">
-      <button className="bg-red-800 border-red-100 rounded-md p-3 ">
-        {age <= 20 ? "Watch Now" : "Not Available"}
+      <button className="bg-red-800 border-red-100 rounded-md p-4 ">
+        {age <= 15 ? "Watch Now" : "Not Available"}
       </button>
-      <button className="bg-red-800 border-red-100 rounded-md p-3 mx-4">
+      <button className="bg-red-800 border-red-100 rounded-md p-4 mx-4">
         {canwatch}
       </button>
-      <button className="bg-red-800 border-red-100 rounded-md p-3 mx-4">
+      <button className="bg-red-800 border-red-100 rounded-md p-4 mx-4">
         {lastmethod()}
       </button>
       <hr />

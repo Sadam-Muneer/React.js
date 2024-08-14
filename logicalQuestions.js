@@ -1,9 +1,16 @@
 const firstname = fun();
-let name = "Sadam";
+
 function fun() {
+  let name = "Sadam";
   return `My name is ${name} Muneer`;
 }
 console.log(firstname);
+
+const myname = funct();
+let names = "sadam";
+function funct() {
+  console.log(names);
+}
 // Error -: Cannot access 'name' before initialization
 
 // -------------------
