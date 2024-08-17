@@ -7,6 +7,7 @@ import Props from "./components/Props.jsx";
 import UseEffect from "./components/UseEffect.jsx";
 import Interview02 from "./components/Interview2.jsx";
 import BgChanger from "./components/BgChanger.jsx";
+import Image from "./components/Image.jsx";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <UseEffect />
       <Interview02 />
       <BgChanger />
+      <Image />
     </>
   );
 };
