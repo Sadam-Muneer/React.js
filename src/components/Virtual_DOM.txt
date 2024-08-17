@@ -42,7 +42,7 @@ React Fiber breaks down the rendering work into small chunks, allowing React to 
 React compares the new Virtual DOM tree with the previous one using a diffing algorithm to 
 determine which parts of the real DOM have changed.
 
-Reconciliation:
+Reconciliation: / Behind the scene called Virtual DOM
 
 Only the changed parts are updated in the real DOM, rather than re-rendering the entire tree.
 This process is called reconciliation and helps optimize performance.
