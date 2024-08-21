@@ -1,7 +1,7 @@
 React.js
 => install react with vite/ Bun
 => react version 19
-=> delete dependecies from package.jsona and run commands
+=> delete dependecies from package.json and run commands
    . npm install react@rc
    . npm i react-dom@rc
  
@@ -12,9 +12,9 @@ React.js
  . snake_case
  . Kebab-case (filesnames,css classes names, id names)
 
-=> JSX=>javascript XML , and it allows to qrite HTML into Javascript
+=> JSX=>javascript XML , and it allows to write HTML into Javascript
  
-=> Babel => (behind the scene browser didt understand JSX)
+=> Babel => (behind the scene browser did't understand JSX)
 The compiler that is used to convert the React code into js  
 ----------------------------------------------------------------
 
@@ -52,21 +52,10 @@ we only use the map functions
 Props is React.js
 The properties , that provide the data from parent to childs
 -------------------
-Hooks -:
-In React, hooks are functions that let you use state and other React features in functional components.
-Before hooks, managing state and side effects required class components. Hooks allow you to use these features without needing classes,
-making functional components more powerful and easier to work with.
 
+Pure Components -: 
 
-As of React 18, there are 13 official hooks available. 
-but few famous are here 1-: 
-
-1-: useState
-2-: useEffect
-3-: useContext
-4-: useReducer
-5-: useCallback
-6-: useMemo
-7-: useRef
-
-  
+Pure Component is a type of React component that implements a shallow comparison on its props and state to determine 
+whether the component should re-render. 
+Stop re-rendering of component.
+This means that a Pure Component will only re-render if there is a difference in the current props or state compared to the previous ones.

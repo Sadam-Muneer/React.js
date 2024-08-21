@@ -1,0 +1,16 @@
+Hooks -:
+In React, hooks are functions that let you use state and other React features in functional components.
+Before hooks, managing state and side effects required class components. Hooks allow you to use these features without needing classes,
+making functional components more powerful and easier to work with.
+
+
+As of React 18, there are 13 official hooks available. 
+but few famous are here 1-: 
+
+1-: useState
+2-: useEffect
+3-: useContext
+4-: useReducer
+5-: useCallback
+6-: useMemo
+7-: useRef
