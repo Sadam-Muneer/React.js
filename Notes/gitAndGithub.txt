@@ -1,0 +1,59 @@
+https://docs.chaicode.com/git-and-github/
+
+
+Git-: 
+
+Definition: Git is a distributed version control system (DVCS) that tracks changes to files 
+and coordinates work on those files among multiple people. It's primarily used for managing the history 
+of code changes in software development.
+
+Github-: 
+
+Github is a web-based hosting service for Git repositories. Github is an online platform that allows
+you to store and share your code with others. It is a popular platform for developers to collaborate 
+on projects and to share code. It is not that Github is the only provider of Git repositories,
+but it is one of the most popular ones.
+
+directory / repo / branch / folder  => are same things
+
+=> Install Git-: 
+https://git-scm.com/downloads.
+
+=> Account on Github
+
+Terminologies -: 
+
+=> git --version
+=> pwd   (present work directory)
+=> cd sadam
+=> cls   (clear screen)
+=> clear
+=> mkdir sadam.txt  (make folder "sadam.txt")
+=> touch sadam.txt   (make file "sadam.txt")
+=> git init
+=> git add sadam.txt sadam2.txt
+=> git add .
+=> git commit -m "message"
+=> git logs
+=> git log --oneline   (press q for ctrl+c (meas exit))
+=> git reset --hard HEAD~1    (one step back to code)
+=> .gitignore   (gitignore file generator for react.js/node.js)
+  => .env file (API_KEY , API_SECRET, DATABASE_URL , PORT , )
+  => node_modules
+git doest tract empty files , so make following file
+=> .gitkeep ( make this file in any empty file)
+
+check username and email of your github Account using commands
+=> git config --global user.name
+=> git config --global user.email
+
+
+------------------
+Git Blame (extension download)
+
+git config --global user.name "name"
+git config --global user.email "email@.com"
+git config --global core.editor "code --wait"
+git config --global core.autocrlf "input"
+
+
