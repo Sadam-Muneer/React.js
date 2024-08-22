@@ -86,7 +86,8 @@ how to make branching-:
 =>git switch feature/navbar   (switch from master branch to your copied branch)
 =>git branch
 =>git merge master
-(and if you are changing in master/main branch , write vie versa)
+(and if you are changing in master/main branch , write vice versa)
 
 => git log --oneline --graph
 => git branch -d feature/navbar  (delete copy branch)
+hello
