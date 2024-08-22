@@ -36,8 +36,10 @@ Terminologies -:
 => git commit -m "message"
 => git logs
 => git log --oneline   (press q for ctrl+c (meas exit))
+=> git status -s   (knsi file kis stage pe hai)
 => git reset --hard HEAD~1    (one step back to code)
 => .gitignore   (gitignore file generator for react.js/node.js)
+=> ctrl + j , ctrl + `  (open terminal)
   => .env file (API_KEY , API_SECRET, DATABASE_URL , PORT , )
   => node_modules
 git doest tract empty files , so make following file
