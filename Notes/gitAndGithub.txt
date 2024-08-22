@@ -87,3 +87,6 @@ how to make branching-:
 =>git branch
 =>git merge master
 (and if you are changing in master/main branch , write vie versa)
+
+=> git log --oneline --graph
+=> git branch -d feature/navbar  (delete copy branch)
