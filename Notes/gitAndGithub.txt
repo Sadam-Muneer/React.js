@@ -84,7 +84,7 @@ branching -:
 how to make branching-:
 =>git branch
 =>git switch feature/navbar   (switch from master branch to your copied branch)
-=>git branch -C feature/navbar   (make and switch in branch)
+=>git switch -C feature/navbar   (make and switch in branch)
 =>git branch
 =>git merge master
 => git branch -d feature/navbar (delete branch)
