@@ -88,3 +88,4 @@ git branch
 git switch feature/navbar   (switch from master branch to your copied branch)
 git branch
 hello sadam
+git merge master
