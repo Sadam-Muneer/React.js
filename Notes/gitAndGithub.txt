@@ -90,4 +90,10 @@ how to make branching-:
 
 => git log --oneline --graph
 => git branch -d feature/navbar  (delete copy branch)
-hello
+
+
+----------
+jab ap ksi branch mn kaam kr rhe hoa aur ap ne kch code likha aur ap ne usko commit ni kiya aur 
+ap dosre wli branch mn switch krne ki kooshsih krte ho ... to git apko bolta hai k saved ni hva .. to
+=> git stash apply
+changes delete ho jayen ge .. to hm unko stash/draft mn bhej dte hein aur baad mn waps aa k unko apply kr lte hein
