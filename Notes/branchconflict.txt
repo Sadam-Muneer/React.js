@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 sadam muneer in feature/navbar
-=======
 hello sadam
->>>>>>> master
