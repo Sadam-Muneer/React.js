@@ -109,3 +109,44 @@ changes delete ho jayen ge .. to hm unko stash/draft mn bhej dte hein aur baad m
 => git stash 
 => git stash apply
 => git stash clear  
+
+
+
+---------
+common steps-:
+
+=> main bnda folder bnaye ga and initial file bnayega
+aur usko github pe push kr dega aur usko collaborator add kr dega.
+--------
+now on other person's laptop-:
+
+=>saaray bnde uss repo se cloning krn 
+--open terminal and run command with original url of that repo, and will meet you on code/download
+(git clone https://github.com/sadammuneer/hello.git)
+
+=>aur sb loog apni aik copy branch create krn (for not conflict)  [very important]  => git switch -C navbar
+   aur apna sara code ussi copy branch mn likhein
+
+us k complete hn pe commit and push krn aur inform kr dein teammate ko. (git push origin navbar)
+
+now on admin laptop-:
+
+
+=> And main merger fetch krega and merger and re-push krega code.
+=> git fetch
+=> git switch navbar
+------    => check that code and will now move to main branch
+=> git switch main
+=> git merge navbar
+=> git push origin main
+
+
+---------
+now on other person laptop -;
+
+admin will inform his team that i have merge all code on main branch 
+you can check
+now he will -:
+=> cls
+=> git fetch
+=> git pull
