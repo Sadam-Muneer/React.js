@@ -82,10 +82,8 @@ branching -:
 
 
 how to make branching-:
-
-git branch feature/navbar 
-git branch
-git switch feature/navbar   (switch from master branch to your copied branch)
-git branch
-hello sadam
-git merge master
+=>git branch
+=>git switch feature/navbar   (switch from master branch to your copied branch)
+=>git branch
+=>git merge master
+(and if you are changing in master/main branch , write vie versa)
