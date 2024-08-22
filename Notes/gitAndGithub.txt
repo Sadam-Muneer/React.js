@@ -59,3 +59,32 @@ git config --global core.editor "code --wait"
 git config --global core.autocrlf "input"
 
 
+
+
+----------
+branching
+2 developers are working on same website
+and -:  
+sadam will make navbar 
+Ali will make footer
+
+now first code have 32 lines and now sadam will given a copy of that 32 lines of code because our original code 
+did't pollute , if anycase sadam will write a bad code. 
+and this is callled branching.
+and he will add navbar in that 32 lines of copied code 
+and after that everything will right , he will merge hi code in original 32 lines 
+and delete that copy 
+
+same as it is Ali will make footer
+
+branching -: 
+32 lines ---------- 132 lines -------- 232 lines------ 332 lines
+
+
+how to make branching-:
+
+git branch feature/navbar 
+git branch
+git switch feature/navbar   (switch from master branch to your copied branch)
+git branch
+hello sadam
