@@ -48,7 +48,7 @@ git doest tract empty files , so make following file
 check username and email of your github Account using commands
 => git config --global user.name
 => git config --global user.email
-
+yes
 
 ------------------
 Git Blame (extension download)
