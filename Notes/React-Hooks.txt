@@ -7,10 +7,16 @@ making functional components more powerful and easier to work with.
 As of React 18, there are 13 official hooks available. 
 but few famous are here 1-: 
 
-1-: useState
-2-: useEffect
-3-: useContext
-4-: useReducer
-5-: useCallback
+1-: useState (managing state and handling side effects in functional components)
+2-: useEffect (handle the side effects in functional components like fetching data, directly updating the DOM e.t.c )
+3-: useContext-:
+                 In React, "useContext" is a hook that allows you to access and use the context within a functional component.
+It enables the sharing of values (like data or functions) across different components in the component
+tree without needing to pass props manually at every level.
+4-: useReducer-:
+                 In React, useReducer is a hook that is used to manage complex state logic in a functional component.
+It is an alternative to useState and is particularly useful when the state logic involves multiple sub-values or
+when the next state depends on the previous one.
+5-: useCallback (Skipping re-rendering of components)
 6-: useMemo
 7-: useRef
