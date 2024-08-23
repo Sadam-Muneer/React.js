@@ -23,6 +23,7 @@ const PassGenerator = () => {
   }, [length, numberAllowed, charAllowed]);
   const copyPassword = useCallback(() => {
     passRef.current?.select();
+    passRef.current?.setSelectionRange(0, 100);
     window.navigator.clipboard.writeText(password);
   }, [password]);
   useEffect(() => {
